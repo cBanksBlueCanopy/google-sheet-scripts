@@ -25,7 +25,7 @@
 
 // ============ CONFIGURATION ============
 
-const WORDPRESS_SITE_URL = 'https://wbwv6serdt.wpdns.site'; // Your WordPress site URL (no trailing slash)
+const WORDPRESS_SITE_URL = 'https://yourwordpress.site'; // Your WordPress site URL (no trailing slash)
 
 // OPTIONAL: Only needed if your media library requires authentication
 // Leave these empty ('') if your media is publicly accessible
