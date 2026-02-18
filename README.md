@@ -23,6 +23,8 @@ A collection of Google Apps Script utilities designed to streamline the process 
 2. In the top menu, click **Extensions → Apps Script**.
 3. This will open the Apps Script editor in a new tab.
 
+> **⚠️ Note:** If you plan to use the `wordpressImageURLReplacer` script, make sure all product images have been uploaded to your WordPress media library **before** running it. The script updates URLs to point to your WordPress instance, so any images not yet uploaded will result in broken links.
+
 ### Step 2 — Add a Script
 
 1. In the Apps Script editor, delete any placeholder code in the default `Code.gs` file (or create a new script file by clicking the **+** next to "Files").
@@ -105,7 +107,7 @@ Finds image URLs in your sheet and replaces them with the correct WordPress medi
 
 ---
 
-## Contributing
+## 🤝 Contributing
 
 Contributions are welcome! If you have a useful Google Sheets script for WooCommerce data prep, feel free to open a pull request.
 
